@@ -1,0 +1,18 @@
+
+.pageTitle{
+    font-size: 2vw;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    color:rgb(182, 171, 171);
+    margin:10px 0;
+    
+}
+.trending {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+  }
+  

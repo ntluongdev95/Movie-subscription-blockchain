@@ -1,0 +1,54 @@
+.main_wrapper{
+   background-color: black;
+    width: 100%;
+}
+.main_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 50px;
+    height: 80px;
+    position: fixed;
+    background-color:black;
+    z-index: 999;
+    width: 100%;
+    box-shadow: 0px 1px 5px rgb(122, 46, 46) ;
+    transition: 1s ease-in-out;
+}
+
+.main_logo{
+    width: 100px;
+    object-fit: contain;
+}
+.main_header-right{
+    display: flex;
+    align-items: center;
+}
+.main_header-user{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.user-name{
+    color:white;
+}
+.user-avata{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.user-wallet{
+    margin-left: 30px;
+    color:white;
+}
+.main_sections{
+  min-height: 100vh;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 70px;
+ 
+}
+span{
+    cursor: pointer;
+}

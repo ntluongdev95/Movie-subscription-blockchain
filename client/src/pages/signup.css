@@ -1,0 +1,50 @@
+.signup_container{
+    color:white;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   /* background-image:
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/ed0b5df9-ba9d-4534-bd09-57993daeda56/3b6eea5b-06ff-4ad0-a6c2-a97a7ce169e1/SG-en-20220214-popsignuptwoweeks-perspective_alpha_website_large.jpg")
+    ;*/
+    background-image: url('https://www.howtogeek.com/wp-content/uploads/2020/05/person-pointing-remote-towards-tv-with-netflix-logo.jpeg?width=1198&trim=1,1&bg-color=000&pad=1,1');
+   
+}
+.signup_layer{
+    height: 100vh;
+    width: 100%;
+    background-color:rgba(0,0,0,.55);
+}
+.signup_header{
+    padding:20px 0 0 40px;
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+.signup_right{
+    margin-right: 50px;
+    font-size: 1.2rem;
+}
+.signup_right >span{
+    color:white;
+}
+
+a{  text-decoration: none;
+    color:white;
+     margin-left: 5px;
+}
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.signup_avata{
+    width: 180px;
+    object-fit: contain;
+    cursor: pointer;
+}
+.name{
+    margin-bottom: 20px;
+}
+
+
